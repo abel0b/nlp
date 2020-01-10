@@ -12,6 +12,7 @@ pip install -r requirements.txt
 Run JupyterLab.
 ```bash
 jupyter lab
+```
 
 Remote access to JupyterLab.
 ```bash
@@ -21,3 +22,9 @@ export HOST=formation.plafrim.fr
 ssh -L $PORT:$HOSTNAME:$PORT $HOST
 jupyter lab --port $PORT --ip 0.0.0.0
 ```
+
+Retrieve data on plafrim.
+```bash
+./sync.sh
+```
+
