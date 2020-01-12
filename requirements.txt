@@ -7,3 +7,5 @@ seaborn
 spacy
 gensim
 jupyterlab
+tensorflow
+tensorflow_datasets
